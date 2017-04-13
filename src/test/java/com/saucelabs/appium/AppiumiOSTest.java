@@ -35,8 +35,8 @@ public class AppiumiOSTest {
     @Before
     public void setUp() throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("app-package", "de.zalando.mobile.debug");
-        capabilities.setCapability("app-activity", "de.zalando.mobile.ui.start.SplashActivity");
+        capabilities.setCapability("app-package", "");
+        capabilities.setCapability("app-activity", "");
         capabilities.setCapability("takesScreenshot", true);
 
         // host name is
